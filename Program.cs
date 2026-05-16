@@ -2,6 +2,7 @@
 var writer = new FilerWriter(filePath);
 writer.Write("Some texxt");
 Console.WriteLine("Press any key to close");
+Console.WriteLine("Press any key to close");
 
 var reader = new SpecificLineFromTextFileReadder(filePath);
 var third = reader.ReadLineNumber(1);
